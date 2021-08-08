@@ -14,6 +14,7 @@ html, body{
 .center{
     max-width: 1200px;
     width: 100%;
+    padding: 0 2%;
     margin: 0 auto;
 }
 
@@ -27,7 +28,7 @@ section.main{
     position: relative;
     width: 100%;
     min-height: 800px;
-    background-image: url(../img/bg1.jpg.jfif);
+    background-image: url(../img/1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -440,5 +441,16 @@ footer{
     .box-planos-single{
         margin: 10px 0;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .conteudo-header h2{
+        font-size: 20px;
+    }
+    
+    .conteudo-header p{
+        line-height: 15px;
+        font-size: 12px;
     }
 }
